@@ -1,0 +1,21 @@
+This game is hangman, user plays by typing characters to guess the word.
+==============
+
+Pseudocode:
+
+1. User opens application and sees loading page with title picture to the left and grid
+to the right that has the game.
+
+2. User begins typing characters until 10 guesses are done. If there is no correct
+    answer game starts over, guesses go back to 10 remaining and entries are erased.
+
+3. If user gets the 1st guess is correct: 'Ginger Cookies', a picture of cookies
+    is displayed and victory tune is played.
+
+5. User gets more attempts to enter more guesses:
+    'chicken wings'
+    'french fries'
+    'salad dressing'
+    'Need to wash dishes'
+
+6. Once the last word is guessed correctly, Game Over screen is displayed.

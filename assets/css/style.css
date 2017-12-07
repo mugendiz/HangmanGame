@@ -1,0 +1,41 @@
+.gameContainer {
+  float: right;
+  background-color: #0c44;
+  padding: 5px;
+  width: 580px;
+}
+
+.button {
+  width: 480px;
+  padding: 5px;
+  background-color: lightgrey;
+  text-align: center;
+  margin: auto;
+}
+
+h3, h2, h4 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h4
+{
+  text-align: center;
+  font-family: sans-serif;
+  color: #88231B;
+}
+
+@media (max-width: 1200px) {
+  .gameContainer {
+    float: left;
+    margin: auto;
+    background-color: #0c44;
+    bottom: 0;
+  }
+}
+ .userChoices {
+   text-align: center;
+   font-size: 25px;
+   color: #043e5;
+
+ }
